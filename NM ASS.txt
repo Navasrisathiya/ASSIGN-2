@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE FORM</title>
+</head>
+<body>
+    <h2>
+        <center>EMPLOYEE FORM</center>
+    </h2>
+    <form>
+        Enter your name <input type="text"name="name">
+    </form>
+    <br>
+    
+    <form>
+        Enter your department <input type="text"name="name">
+    </form>
+    <br>
+    
+    <form>
+        Tell us a little about yourself
+        <textarea id="type"name="type"rows="3"cols="40">
+           
+        </textarea>
+       
+        
+    </form>
+    <br>
+    <br>
+    <center>
+        
+            Do you exercise at home?<input type="radio"name="name">Yes<input type="radio"name="name">No
+            <br>
+            <br>
+            How do you like to read about your favorite topics?
+            <br>
+            <br>
+            <input type="checkbox"name="name">Books <input type="checkbox"name="name">Online resources <input type="checkbox"name="name">Phone apps <input type="checkbox"name="name">Magazines
+            <br>
+            <br>
+            What genre of movies do you like? <select> <option>Action</option><option>horror</option><option>Comedy</option></select>
+    </center>
+    <br>
+    <br>
+    <center>
+    <button type="button">Submit Form
+    
+    </button>
+</body>
+</html>
